@@ -4,6 +4,13 @@ A script that scraps and parses news articles
 
 -------------------------
 
+- [Introduction](#introduction)
+- [Challenges](#challenges)
+- [Current Approach](#current-approach)
+- [How to Contribute](#how-to-contribute)
+
+-------------------------
+
 ## Introduction
 
 In the information era, browsing and learning information from news articles is supposed to be easy. However, in reality, many main stream news sites are filled with noises like advertisements, clickbaits, and pop-up windows. Also, different news sites organize their articles differently, forcing readers to adjust to different formattings. 
@@ -24,6 +31,6 @@ After trials and errors, the current approach is using xpath and Selenium to acc
 
 -------------------------
 
-## How to contribute
+## How to Contribute
 
 In parsing_info.csv, you can add \<domain name\>, \<xpath to contents\> if that xpath is tested to always contain noise-free content. We are welcoming any domain from any language, as doing so will increase the datapoints for the research and make this program more universal
