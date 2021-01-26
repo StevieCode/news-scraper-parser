@@ -33,4 +33,5 @@ After trials and errors, the current approach is using xpath and Selenium to acc
 
 ## How to Contribute
 
-In parsing_info.csv, you can add \<domain name\>, \<xpath to contents\> if that xpath is tested to always contain noise-free content. We are welcoming any domain from any language, as doing so will increase the datapoints for the research and make this program more universal
+In parsing_info.csv, you can add \<domain name\>, \<xpath to contents\> if that xpath is tested to always contain noise-free content. We are welcoming any domain from any language, as doing so will increase the datapoints for the research and make this program more universal.
+If you spot an issue with current xpath, feel free to report it too!
