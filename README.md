@@ -5,6 +5,7 @@ A script that scraps and parses news articles
 -------------------------
 
 - [Introduction](#introduction)
+- [Usage](#usage)
 - [Challenges](#challenges)
 - [Current Approach](#current-approach)
 - [How to Contribute](#how-to-contribute)
@@ -16,6 +17,15 @@ A script that scraps and parses news articles
 In the information era, browsing and learning information from news articles is supposed to be easy. However, in reality, many main stream news sites are filled with noises like advertisements, clickbaits, and pop-up windows. Also, different news sites organize their articles differently, forcing readers to adjust to different formattings. 
 
 This program is designed for Professor Wojcieszak, Menchen-Trevino, and their colleagues at the EXPO project (Europeans Exposed to Dissimilar Views: Investigating Backfire Effects). They are trying to study the dynamic between news articles and the stratification of the society. To do so, they are currently reviewing more than 30,000 articles. Manually visiting every page is simply not viable. Therefore, I created this script that scrape and parse articles from  given urls and store them in a database to help the EXPO project.
+
+-------------------------
+
+## Usage
+
+```
+python3 parse_engine.py <domain name> <url>
+```
+Due to copyright issues, I cannot post the driver that repeatively call the engine to scrape and parse multiple urls from databases. Still, you can always make your own driver!
 
 -------------------------
 
