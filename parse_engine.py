@@ -19,7 +19,7 @@ class ParseEngine:
 
     Typical usage example:
 
-    engine = ParseEngine(url = reader.url, xpath = reader.xpath)
+    engine = ParseEngine(url, xpath)
     text = engine.get_body_text()
 
 """
