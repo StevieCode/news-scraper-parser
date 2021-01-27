@@ -23,7 +23,7 @@ class ParseEngine:
     text = engine.get_body_text()
 
 """
-  def __init__(self, url, xpath, headless=False):
+  def __init__(self, url, xpath, headless=True):
     self.xpath = xpath
 
     chrome_options = Options()
@@ -33,7 +33,8 @@ class ParseEngine:
                     ChromeDriverManager().
                     install(),
                     options=chrome_options
-    ).get(url)
+    )
+    self.driver.get(url)
 
   def get_body_text(self):
     i = 1
