@@ -37,7 +37,6 @@ class ParseEngine:
     self.driver.get(url)
 
   def get_body_text(self):
-    i = 1
     body_text = ''
     element = self.driver.find_elements_by_xpath(self.xpath)
     for i in element:
